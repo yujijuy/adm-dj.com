@@ -439,13 +439,8 @@ p {
     .movies-container {
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
-    .br-sp {
-        white-space: nowrap;
-    }
 }
-    .br-sp {
-        display: none;
-    }
+
 @media (max-width: 472px) {
     .newsletter form .email {
         width: auto;
@@ -455,12 +450,14 @@ p {
         align-items: center;
         row-gap: 1rem;
     }
-    .br-sp {
-        white-space: nowrap;
+}
+@media (min-width: 472px) {
+    .sp {
+        display: none;
     }
 }
 
-@media (max-width: 370px) {
+@media (min-width: 370px) {
     header {
         padding: 6px 4%;
     }
@@ -479,9 +476,6 @@ p {
     }
     .box .box-img {
         height: 240px;
-    }
-    .br-sp {
-        white-space: nowrap;
     }
 }
 
