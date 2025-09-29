@@ -45,12 +45,15 @@ header {
     transition: 0.5s;
 }
 /*header.shadow {
+    backdrop-filter: blur(13px);
+    background-color: rgba(255, 255, 255, .1);
     background: var(--bg-color);
     box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
 header.shadow .navbar a {
     color: var(--bg-color);
 }*/
+
 header.shadow .logo {
     color: var(--text-color);
 }
