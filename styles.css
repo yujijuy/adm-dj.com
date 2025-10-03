@@ -418,7 +418,7 @@ p {
 
 @media (max-width: 774px) {
     header {
-        padding: 12px 4%;
+        padding: 13px 4%;
     }
     #menu-icon {
         display: initial;
@@ -461,7 +461,7 @@ p {
         font-size: 2.4rem;
     }
     .btn {
-        padding: 0.6rem 1.2rem;
+        padding: 0.6rem 1rem;
         z-index: 100000;
     }
     .movies-container {
@@ -487,7 +487,7 @@ p {
 
 @media (max-width: 370px) {
     header {
-        padding: 6px 4%;
+        padding: 8px 4%;
     }
     .home-text h1 {
         font-size: 1.7rem;
